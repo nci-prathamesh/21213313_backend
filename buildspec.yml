@@ -1,14 +1,10 @@
 version: 0.2
 
 phases:
-  install:
-    runtime-versions:
-      java: corretto17
-      
   build:
     commands:
         # run build script
-        - mvn install
+        - mvn clean install
      
 artifacts:
   # include all files required to run application
