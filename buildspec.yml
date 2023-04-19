@@ -8,7 +8,6 @@ phases:
   build:
     commands:
         # run build script
-        - mvn clean
         - mvn install
      
 artifacts:
