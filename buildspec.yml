@@ -9,7 +9,7 @@ phases:
     commands:
         # run build script
         - mvn clean
-        - mvn package
+        - mvn install
      
 artifacts:
   # include all files required to run application
